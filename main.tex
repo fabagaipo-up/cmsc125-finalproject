@@ -1,0 +1,247 @@
+% Paper Formatting
+\documentclass[a4paper, 12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\doublespacing{}
+
+% References Formatting - APA format
+\usepackage[american]{babel}
+\usepackage[style=apa, citestyle=apa, backend=biber]{biblatex}
+\DeclareLanguageMapping{american}{american-apa}
+\addbibresource{references.bib}
+\usepackage[babel,threshold=2]{csquotes}
+
+% Title Page
+\begin{document} 
+\begin{titlepage}
+	\centering
+	\scshape
+
+	\rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{2pt}
+	\rule{\textwidth}{0.4pt}
+	
+	\vspace{0.75\baselineskip} 
+	
+	{\LARGE CMSC 125 FINAL PROJECT\\}
+	
+	\vspace{0.75\baselineskip}
+	
+	\rule{\textwidth}{0.4pt}\vspace*{-\baselineskip}\vspace{3.2pt}
+	\rule{\textwidth}{1.6pt}
+	
+	
+% Subtitle
+	An Analysis on the Operating Systems: Windows Home Server and Windows Vista
+	\vspace*{3\baselineskip}
+	
+% Authors
+	
+	Submitted by
+	
+	\vspace{0.5\baselineskip}
+	{\scshape\Large Acopiado, Jhon Mark \\ Bagaipo, Fayne Roxenne \\}
+	\vspace{0.5\baselineskip}
+	
+% University name
+	\textit{University of the Philippines \\ Cebu}
+	\vfill
+	
+% Date
+	\vspace{0.3\baselineskip}
+	
+	2022
+	
+	{\large June}
+\end{titlepage}
+
+% Table of Contents
+\tableofcontents
+
+
+
+% 1st OS - Windows Home Server
+\newpage
+\section{Windows Home Server}
+
+% A. Author(s)
+\subsection{Author/s}
+Windows Home Server is a home server operating system from Microsoft. It was announced by Bill Gates on 7th of January, 2007 with the code-name Quattro at the Consumer Electronics Show in Las Vegas. The code name Quattro was made by the project leader Charlie Kindel referring to the number of attempts building a home server(\cite{Edney2007guide}). It was months later on 16 July 2007 that the OS was released for manufacturing, and on 7th of November of the same year, the OS was officially released. 
+
+% B. History
+\subsection{History}
+
+The first release of Windows Home Server was on 7 November 2007 based on Windows Server 2003 SP2 (Service Pack 2). From the released date to 2009, three major updates were made referred to as Power Packs similar to regular windows’ service packs. The first update, Power Pack 1, focused on fixing known issues of the first version, and making the OS faster and reliable. The second update, Power Pack 2 adds new features and improves user experience. The third update, Power Pack 3 improves the operating system's experience with Windows Media Center and Windows 7\parencite{microsoft2009Dec}.
+
+Few years later, on year 2011, the second and last version was officially released based on the enterprise-level Windows Server 2008 R2 Operating System. It was called Windows Home Server 2011 with the code name "vail". It only allows computers with 64-bit processor to run the server, and 32-bit and 64-bit Windows Vista and Windows 7 for client PCs. It also support Windows XP for the client side, but only with a 32-bit processor\parencite{informit2011Apr}. 
+
+Unfortunately, the mainstream support of Windows Home Server 2011 ended on the second quarter of 2016. No more security updates is offered by Microsoft for Home Server components. Thus, Microsoft recommends bringing in a new computer running on Windows Server Standard or Windows Server Essential(\cite{pivovarova219end}). 
+
+% Influence
+\subsection{Influence}
+The creation of Windows Home Server was influenced by the older server platform, Windows Server 2003 SP2. The Windows Server 2003 can cater more than a hundred computers connected in one server. Clearly Windows Server 2003 is not suitable for household use which only has around less than 10 PCs. Thus Windows Home Server was introduced which is intended to be used for home PCs. 
+
+% Motivation
+\subsection{Motivation}
+On the book of \cite{Edney2007guide}, the motivation of creating Windows Home Server was primarily based on addressing the following consumers' needs: 
+\begin{itemize}
+    \item Houses that has multiple computers will find it hard to manage all data stored in their computers. On occasion, family members has to switch places in order to view one file (e.g. family photo) stored in one computer, when in fact they can view it on their personal computer if only sharing files is simpler.
+    \item Problem also arises when important files are accidentally deleted or overwritten, or because a  hard drive failure occurs. The problem can be solved, by doing a manual backing-up of files, but doing it on several computers would waste time. 
+    \item On some time, people away from home would have wanted to access their personal computer in their house. They probably wanted to copy files from and to their PC. 
+\end{itemize}
+
+
+
+% Objective and Purpose
+\subsection{Objective and Purpose}
+With the purpose of providing a solution to the endeavors of the people, Microsoft introduced their product Windows Home Server. The objective of the Windows Home Server is to take all efforts and complexity of backing-up computer, sharing  files, and so on. In Windows Home Server User's Guide\parencite{Edney2007guide}, the following are some solutions embedded in the Windows Home Server:
+\begin{itemize}
+    \item Sharing files is easier on Windows Home Server. There is no need to take turns to watch their favorite anime on one computer, everyone can watch it on their personal computer. 
+    \item In Windows Home Server, backing-up the data is made simple and convenient, and restoring them back was even more convenient. People can restore specific files, multiple folders, and even the entire computer without the need to install again an OS and drivers. 
+    \item It also provides personal unique domain which allows people away from home to access their Windows Home Server and any files in it - of course using an internet browser.
+\end{itemize}
+
+\newpage
+% 2nd OS - Windows Vista
+\newpage
+\section{Windows Vista}
+
+% A. Author(s)
+\subsection{Author/s}
+Microsoft announced its next operating system, code-named "Longhorn," would be named Windows Vista on July 23, 2005. On November 30, 2006, it was released to corporations and then released to the general public on January 30, 2007.
+
+% B. History
+\subsection{History}
+Microsoft began developing Windows Vista in 2001, prior to the introduction of Windows XP, under the codename Longhorn, with a release date of late 2003. It was intended to be a "in-between" operating system, a release between Windows and Linux. XP and Windows 7, dubbed Blackcomb at the time. As development on Longhorn progressed, many of the features that had been planned for Blackcomb began to make their way into Longhorn. As a result, Longhorn's release date was moved back from its original target of 2003. Microsoft chose to make a modification after seeing increasing delays and fearing feature creep \parencite{gatesguide}.
+
+% C. Influence
+\subsection{Influence}
+Windows Vista was never supposed to be a major release like Windows 95 or Windows XP. The initial Longhorn concept, which was based on Windows XP source code, was abandoned. The new operating system was created from scratch, but this time using the source code from Windows Server 2003. Longhorn's previously described features were discarded in favor of an entirely new development technique. Microsoft dubbed this process the "Security Development Life-Cycle," a new approach to development that would solve the security flaws in the Windows codebase. Microsoft launched a major beta testing program involving hundreds of corporations and volunteers after renaming Longhorn to Vista \parencite{torres2008unofficial}.
+
+% D. Motivation
+\subsection{Motivation}
+Vista beta 1 was sent to approximately 10,000 volunteers via the MSDN developer program, Microsoft TechNet, and the Windows Vista Technical Beta Program, a program dedicated only to Vista beta testing, according to Microsoft. Each succeeding iteration of the operating system included the majority of Vista's promised features. Vista was pronounced "feature complete" in February 2006, and the majority of subsequent development focused on stabilizing the operating system, performance, application and driver compatibility, and product documentation. Vista Beta 2 was made available to the general public in late May. Over five million individuals downloaded the beta version worldwide.
+
+Microsoft had wanted to release the operating system by Christmas 2006, but it was pushed back to January 2007 to give hardware and software manufacturers more time to build drivers for the new OS. Microsoft announced the completion of Windows Vista in November 2006, bringing Microsoft's longest project to a close. Finally, on the 30th of January 2007, Microsoft launched Windows Vista to the public \parencite{awusi2007evaluation}.
+
+
+% E. Objective and Purpose
+\subsection{Objective and Purpose}
+The main goal of Windows Vista, according to Microsoft, was to increase the security of the Windows operating system. One of the most prevalent criticisms leveled at Windows XP and its predecessors was their widespread security flaws and overall vulnerability to spyware, viruses, and buffer overflows. In light of this, Microsoft Chairman Bill Gates launched a company-wide "Trustworthy Computing effort" in early 2002, with the goal of incorporating security into every area of the company's software development. Microsoft argued that strengthening the security of Windows XP and Windows Server 2003 was a higher priority than finalizing Windows Vista, delaying its release.
+\newpage
+
+% II. Feature Discussion
+\section{Feature Discussion}
+
+% A. Kernel
+\subsection{Kernel}
+% Windows Home server
+Windows Home Server uses hybrid kernel architecture, the  capabilities of its kernel simply mirrors the features that the system offers. The following are some listed functionality of the Windows Home Kernel:                    
+\begin{itemize}
+    \item Interrupt handling. A tool 'kernrate' (kernel profile) can be used to track down the precise source of the interrupts hence fixing it is faster. If ever the back-up process is interrupted, the system won't start a new back-up process but rather resumes the failed back-up process from where it is interrupted. 
+    \item Offers a windows home server console or shell that is  accessible to users. The shell can be used to run scripts to control various aspects of Windows Home Server. With the right scripts, it can execute windows programs, create and modify shortcuts, read environment variables and more. 
+    \item Offers access permissions that are enforced in the file system. This means that user permission can be defined for specific shared files, and that users can be given with full-access, read-only, and no access. 
+    \item Implements network health monitoring. Windows home server checks the health of all computers connected to the server. The health condition of every computer would only falls to either healthy, warning, critical, and not connected. 
+    \item File transfer. The kernel in Windows Home Server facilitates the transfer of files from one computer to the server, or to the back-up disks. In addition, remote file transfer to and from the server can also be done when the user is far away from home, via the internet.
+    \item Manage user accounts. As a server type operating system, adding, removing, and editing user information are primal functions of the kernel.
+\end{itemize}
+
+% Windows Vista
+Microsoft has made substantial enhancements to the kernel of Microsoft Windows Vista operating system \parencite{abdulmalik2010windows}. Kernel improvements are significant because the kernel provides low-level operating system functions including:
+\begin{itemize}
+    \item Thread scheduling.
+    \item Interrupt and Exception Dispatching
+    \item Multiprocessor Synchronization
+    \item Set of Routines and Basic Objects
+\end{itemize}
+Instead of a monolithic kernel, Windows Vista uses a so called hybrid kernel. Because Windows Vista is a multitasking OS, it needs synchronization objects in order to access shared data. The kernel is responsible for creating, maintaining and signaling synchronization objects. Although the Executive creates a number of complex synchronization objects, each of these contains at least one kernel synchronization object. When a process waits on a synchronization object, the kernel changes the dispatcher state of the process that was waiting from waiting to ready. The process that is waiting does not execute at all until the object is unlocked. The kernel in Windows Vista have a type of lock called a spin lock which loops until it is unlocked. Spin locks are only used in very special cases in the kernel and device drivers \parencite{bitterling2010operating}.
+
+% B. Processor Management
+\subsection{Processor Management}
+
+Processes in Windows Home Server have attributes such as Process Identifier (PID), user name, CPU usage, and memory - private working set. The user name pertains to which user a certain process belongs to, and the memory (private working set) pertains to the memory dedicated for that certain process. Other attributes of a process include base priority, session ID, CPU time, and page faults. 
+
+In Windows Home Server, every process is divided into threads. Threads are considered as program tasks that can run concurrently with other threads belonging to the same program which support multithreading. This feature improves the system performance  but if a program has a large number of threads, this would produce a large overhead caused by switching threads on the processor. 
+
+One major feature of Windows Home Server is multiprogramming which fools the user to think that processes are executed in parallel when in fact, processes are just switched back and forth into the processor. Advantage of this feature is that processes are given equal chances to use the CPU, yet there is also a tendency that some processes will starve if there are processes with higher priorities. 
+
+The priority of one process can be defined in Windows Home Server. However, this doesn't mean that the prioritized process gets finished first before other processes. A higher priority process only gets to use the CPU more frequently compared to other processes thus avoiding starvation of some processes. 
+
+The unit for a process in Vista is a thread. Vista has a container which contains at least one thread. Each process has a virtual address space executable code, open handles to system objects, a security context, a unique process identifier, environment variables, a priority class,
+minimum and maximum working set sizes, and at least one thread of execution. The process started with a single thread (primary thread) but can create additional threads from any of its threads. All threads of a process share its virtual address space and system resources. In addition, each thread maintains exception handlers, a scheduling priority, thread local storage, a unique thread identifier, and a set of structures the system will use to save the thread context until it is scheduled. The thread context includes the thread’s set of machine registers, the kernel
+stack, a thread environment block, and a user stack in the address space of the thread’s process. Threads can also have their own security context, which can be used for impersonating clients.
+
+Because a process contains one or more threads, Windows Vista has to schedule these threads. Microsoft Windows supports preemptive multitasking. On a multiprocessor computer, the system can simultaneously execute as many threads as there are processors on the computer. A job object allows groups of processes to be managed as a unit. Job objects are namable, securable, sharable objects that control attributes of the processes associated with them. Operations performed on the job object affect all processes associated with the job object. Because Windows Vista is multitasking system each process runs for short time and not until it is finished. Each process gets a time slice.
+
+A task manager is also available for both Windows Home Server and Windows Vista which can be used to monitor the performance of the system, as well as killing processes. 
+
+% C. Memory Management
+\subsection{Memory Management}
+
+Windows Home Server uses virtual memory to store data when the physical memory is full. When data from the virtual memory is needed, Windows Home Server makes room for that data in the physical memory by swapping it with less used data. 
+
+Windows Home Server allows the user to customize the size of the paging file. The default size of the paging file is 1.5 times the size of the physical memory, and its max size is 3 times the size of RAM. If the physical memory is too small, Windows Home Server needs to use the paging file. If the physical memory is large, it is less likely that Windows Home Server would have to use the paging file. Therefore, users can manually set the size of the paging file depending on the size of the physical memory and type of programs he/she will run. Furthermore, the page file location can also be changed to a faster disk in order to improve performance. 
+
+Whereas in Windows Vista, the virtual address space of each process can be smaller or larger than the total physical memory available on the computer. The subset of the virtual address space of a process that resides in physical memory is known as the working set. If the threads of a process attempt to use more physical memory than is currently available, the system pages some the memory contents to disk. The total amount of virtual address space available to a process is limited by physical memory and the free space on disk available for the paging file. To maximize its flexibility in managing memory, the system can move pages of physical memory to and from a paging file on disk. When a page is moved in physical memory, the system updates the page maps of the affected processes. When the system needs space in physical memory, it moves the least recently used pages of physical memory to the paging file. Manipulation of physical memory by the system is completely transparent to applications, which operate only in their virtual address spaces. Because the RAM is limited on Windows Vista, more processes can share the same page until one process wants to write to this shared page.
+
+The Windows Vista Memory Manager includes numerous enhancements, like more extensive use of lock-free synchronisation techniques,finer-grained locking, tighter data-structure packing, larger paging I/Os, support for modern GPU memory architectures and more efficient use of the hardware Translation Lookaside Buffer. Plus, Windows Vista memory management now offers dynamic address space allocation for the requirements of different workloads \parencite{russinovich2007inside}.
+
+% D. File Management
+\subsection{File Management}
+When it comes to File management for Windows OS, they come built in a hierarchical tree-level directory structure. This stays true for both Windows Home Server and Windows Vista, for example, the root directory is usually "C:\textbackslash". The directory separator is usually a "\textbackslash", but the operating system also internally recognizes a "/". Physical and virtual drives are named by a drive letter, as opposed to being combined as one.
+
+In terms of the file system, since Windows Home Server serves as an OS commonly used in business platforms, a file server is put in place where important data is stored in a central location and permissions are set to control who can access which files. An active directory is also maintained for user management services that allows a server to act as a domain controller. Instead of each user logging into a local computer, the domain controller handles all user account authentication. The following are some features and capabilities offered by Windows Home Server. 
+
+\begin{itemize}
+    \item One location for shared folders and files. Windows Home Server simplifies the access to shared folders and files by storing them in one shared location. Advantage of this feature is that users can directly access the shared files, saving them time looking for a specific shared file. 
+    \item Drive extender. This feature was popular on Windows Home Server, it allows the users to add more disks and make a large pool of storage. Furthermore, users can also duplicate their files to the other disks so that in case of drive failure, a copy of the files is still available on the other drive. However, this feature was removed on the second version Windows Home Server 2011, and implementing this feature would require some tools. 
+    \item Single instance storage. If one file is common between two computers connected to the server, only one copy of the file is backed up. 
+    \item Automatic and  efficient back-up. This feature of Windows home server offers an automatic daily back-up of modified files in every connected computer. Such capability of Windows Home Server saves both time and space from backing every computer individually. 
+    \item Compression and encryption. This allows the user to compress and/or encrypt their files, then decompress and/or decrypt them when they are needed. Although compression saves space and encryption provides security, the overhead produced by these processes slows down the disk access thus a disadvantage of the feature. 
+    \item Remote access to files via the internet. Advantage of this feature is that it allows the user to access their files on the server when they are far from home. Disadvantage is that strangers may get access to the server. 
+\end{itemize}
+
+Whereas Windows Vista is promoted for personal use instead of business purposes, the file system is more traditional. One of the most significant changes to Vista’s interface is the new look of the Windows Explorer file management tool. Windows Vista also has several user friendly and intuitive advancements. One of the popular changes to the user interface is the easy Search window on the Start button as well as on all the explorer windows. Also, all applications are shown on the task bar as "live icons" which offer us a preview of the actual contents of the document. This important change in Vista is not visible to the regular users, but it impacts the entire way the files and folders are handled. This is accomplished by a variant of NTFS, the TxF or the Transactional File System. TxF has the ability to take part in distributed transactions, between processes in the machine as well as between processes on multiple machines with the standard two phase commit functionality that is inherent in relational database systems.
+
+Similarly, in the Vista environment, most operations such as creating folders and files or editing files, saving files etc by concurrent users are considered transactions and care is taken to not allow changes to the same file by multiple users at the same time. When one transaction ends, the next one on the same account/file/folder is performed.
+
+From a regular Windows user perspective, this may not be a major change, but from a developer perspective, this is a major change that will enable them to safeguard the integrity of stored data.
+
+For regular windows users, these are the main changes:
+\begin{itemize}
+    \item In earlier versions of Windows, if the computer happens to crash in the middle of a File to Save operation, the file would most certainly be corrupted. In Vista, the file system is intelligent enough to either complete the save successfully or roll-back (revert) to the same file that existed before the application. So you may lose the changes, but not the entire file.
+    \item Similarly if one single command or script was updating several files with the same set of changes, all files will retain their original information in case of a power failure.
+    \item When an operation is performed over the network and changes are made to multiple computers at the same time, none of the files will be updated unless the change is successfully completed on all machines without any disruption of service.
+    \item Similar controls are applied on registry changes so that the updates are successful or rolled back to original state. During file sharing, if one user changes the file, s/he will have to complete and save the change before another user can save any changes.
+\end{itemize}
+
+% E. Resource Management
+\subsection{Resource Management}
+In Windows Home Server, a resource monitor can be opened to monitor that performance and see some basic metrics of the CPU, disk, network, and memory. A File Server Resource Monitor is used to automatically classify files, perform tasks based on these classifications, set quotas on folders, and create reports monitoring storage usage. Similar to this, Windows Vista also has a resource monitor where you can use the Reliability and Performance Monitor Administrator Tool shortcut. The default view gives a graphical view of CPU, disk, network, and memory usage, with bars available for each item that can be selected for more detailed information. The idea is to provide the users with more detail on which processes are consuming which resources and thus troubleshoot Vista applications.The Resource Monitor is an indication of Vista’s improved troubleshooting capabilities. It also indicates how many menus in XP now have extra sub-menus in Vista. What the resource monitor does is give extra information on the ‘big four’ performance counters, CPU, Disk, Network and Memory. 
+
+% F. Concurrency Management (BONUS)
+\subsection{Concurrency Management}
+A concurrent program is a collection of processes that communicate by reading and writing from a shared memory. Processes in a such program often need to synchronize their actions. Synchronization between processes is classified as either cooperation or contention. A typical example for
+cooperation is the case in which there are two sets of processes, called the producers and the consumers, where the producers produce data items and then the consumers consume. Contention arises when several processes compete for exclusive use of shared resources. For example, the integrity of the data may be destroyed if two processes update a common file at the same time, and as a result, deposits and withdrawals could be lost, confirmed reservations might have disappeared, etc. In such cases it is sometimes essential to allow at most one process to use a given resource at any given time.
+
+On Windows Vista and Home Server, a new feature called I/O Prioritization has been added. This regulates the scheduling of I/Os because contention for the disk can artificially boost the priority of lower priority processes and threads by allowing them to interfere with higher priority ones. Five priorities are used: Critical, High, Medium, Low, and Very Low.
+
+A new API was added to Windows Vista and Home Server to take advantage of the fact that many I/Os use caches of OVERLAPPED data structures. When an I/O completes in the Windows kernel, it needs to lock the virtual memory pages containing the OVERLAPPEDs to guarantee they don't get paged out while devices are copying data to them. But all of this locking adds overhead to each I/O completion. The SetFileloOverlappedRange function tells the kernel to lock the memory associated with a particular file's OVERLAPPED structures, so that it can avoid this overhead on subsequent I/Os \parencite{al12concurrent}.
+
+% G. Conclusion
+\subsection{Conclusion}
+While Microsoft Windows Home Server and Microsoft Windows Vista look to be identical, they serve different purposes and have different features. While one operating system is intended for everyday use on PCs and laptops, the other is better suited to managing multiple devices, services, data and files through a server.
+
+Depending on what the user is looking for in an operating system, there is no definite answer as to which OS performs better than the other. Both operating systems have similar features, one being their hybrid kernel, their file directory structure as well as an implementation of a file system, task manager and resource monitor. The system and monitor may differ in sub features as Windows Home Server caters to multiple connected devices while Windows Vista is more for personal usage.
+
+Apart from the discussed features, Windows Home Server holds a slight edge in terms of memory management as the backup of the Home Server is almost automatic with incremental updates as it is centrally managed whilst Vista is comparable but they do lack in the feature of saving and restoring the OS image in their backup application which only consists of data and folder backups.
+
+\newpage
+\section{Source Code}
+Final project done in LaTex using Overleaf
+
+Link to overleaf: https://www.overleaf.com/read/xkzbxtwvwtsc
+
+% References
+\newpage
+\nocite{*} \printbibliography[heading=bibintoc,title={References}]{}
+\end{document}
